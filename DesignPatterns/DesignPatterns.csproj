@@ -411,6 +411,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="Strategy\Context\Weapon.cs" />
+    <Compile Include="Strategy\Strategies\Concrete Strategies\Shot.cs" />
+    <Compile Include="Strategy\Strategies\Concrete Strategies\Burst.cs" />
+    <Compile Include="Strategy\Strategies\Concrete Strategies\ThrowOne.cs" />
+    <Compile Include="Strategy\Strategies\IThrowStrategy.cs" />
+    <Compile Include="Strategy\Strategies\IFireStrategy .cs" />
+    <Compile Include="Strategy\Strategies\IStabStrategy .cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
